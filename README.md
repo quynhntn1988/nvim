@@ -48,7 +48,7 @@ Inside vim, type this command:
 ```
 $ mkdir ~/.config
 $ cd ~/.config
-$ git clone https://github.com/nguquen/nvim.git
+$ git clone https://github.com/quynhntn1988/nvim.git
 ```
 
 The detail config inside this file: `~/.config/nvim/init.vim`
@@ -66,6 +66,9 @@ Inside vim:
 ```
 
 ## Install powerline fonts:
+
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code-nerd-font
 
 `vim-airline` use powerline fonts for display some special characters like arrow, install it here:
 [https://github.com/powerline/fonts](https://github.com/powerline/fonts). Choose a font that you like and install it for iTerm2.
