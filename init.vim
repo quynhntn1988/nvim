@@ -66,7 +66,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'cespare/vim-toml', { 'branch': 'main' }
 
 "monitoring
-Plug 'wakatime/vim-wakatime'
+" Plug 'wakatime/vim-wakatime'
 
 Plug 'tpope/vim-dotenv'
 
@@ -321,6 +321,8 @@ let g:go_auto_sameids = 0
 let g:go_jump_to_error = 0
 
 " coc.nvim
+" let g:coc_node_path = trim(system('which node'))
+let g:coc_node_path = "/Users/quynhntn1988/.nvm/versions/node/v16.15.0/bin/node"
 let g:coc_global_extensions = ['coc-css', 'coc-highlight', 'coc-html', 'coc-java', 'coc-json', 'coc-lists', 'coc-snippets', 'coc-tsserver', 'coc-yaml', 'coc-vimlsp', 'coc-svg', 'coc-emmet', 'coc-sh', 'coc-docker', 'coc-prisma', 'coc-db', 'coc-graphql', 'coc-flutter', 'coc-rust-analyzer', 'coc-pyright']
 set hidden
 "use <tab> for trigger completion and navigate to the next complete item

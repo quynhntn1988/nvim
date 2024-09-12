@@ -1,4 +1,5 @@
 {
+  "list.source.files.excludePatterns": ["**/node_modules/**"],
   "suggest.autoTrigger": "always",
   "suggest.noselect": false,
   "diagnostic.errorSign": "✖",
